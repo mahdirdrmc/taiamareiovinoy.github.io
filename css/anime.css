@@ -1,3 +1,31 @@
+        /* Responsive padding around the section */
+        #banner {
+            padding: 2%;
+            text-align: center;
+        }
+
+        /* Styling the <p> tag to resemble a clickable button */
+        .banner-button {
+            font-family: 'Hind Siliguri', sans-serif;
+            cursor: pointer;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Hover effect for the button-like <p> tag */
+        .banner-button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+
+
 #load {
     text-align: center;
     padding: 20px;

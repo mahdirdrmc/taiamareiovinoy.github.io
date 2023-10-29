@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+
+
+
+
     <link rel="icon" type="image/x-icon"
         href="https://cdn.jsdelivr.net/gh/TechShreyash/AnimeDex@main/static/img/favicon.ico" />
     <title>Watch TITLE - Otakus's Odyssey</title>
@@ -125,6 +132,14 @@
             </div>
         </section>
 
+        <section id="banner">           
+            <div onclick="openLink()" class="banner">
+                    <p style="font-family: 'Hind Siliguri', sans-serif;" class="anime-title banner-button">TITLE এর হার্ডকপি সংগ্রহ করুন Otaku's Odyssey থেকে! </p>
+            </div>
+        </section>
+
+
+
         <section id="watch">
             <div class="divo">
                 <h2>List Of Episodes:</h2>
@@ -147,6 +162,12 @@
     </footer>
     <hr />
 
+
+    <script>
+        function openLink() {
+            window.open('https://m.me/otakusodyssey', '_blank');
+        }
+    </script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./js/anime.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHQX4066ZV"></script>
